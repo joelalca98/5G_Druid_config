@@ -1,0 +1,36 @@
+{
+    "druid_info":{
+      "base_ip": "192.168.40.124", 
+      "username": "raemis",
+      "password": "Druid2021++"
+    },
+    "core_info": {
+     "amf_iface": "eth1",
+     "mme_iface": "eth1",
+     "mgw_iface": "eth1"
+     },
+    "plmn_info":{
+      "mcc": "001",
+      "mnc": "03",
+      "network_name": "name_slice"
+     },
+    "subnet_info":{
+       "apn":"apn",
+       "tun_addr_ip": "10.0.50.129", 
+       "tun_netmask": "255.255.255.128",
+       "ipv4_pool_first_ip": "10.0.50.130",
+       "ipv4_pool_last_ip": "10.0.50.254"
+     },
+    "sims_info":{
+       "ki": "00112233445566778899AABBCCDDEEFF",
+       "opc": "000102030405060708090A0B0C0D0E0F",
+       "ue_list":[
+         {
+           "imsi": "001035432100005"
+         },
+         {
+           "imsi": "001035432000003"
+            }
+       ]
+    }
+   }
